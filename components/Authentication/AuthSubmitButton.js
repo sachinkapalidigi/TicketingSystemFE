@@ -3,7 +3,7 @@ import React from "react";
 const AuthSubmitButton = ({ buttonText }) => {
   return (
     <button
-      type="button"
+      type="submit"
       className="w-full py-4 bg-green-600 rounded-lg text-green-100"
     >
       <div className="flex flex-row items-center justify-center">
