@@ -60,9 +60,13 @@ const SignUp = () => {
                 ></path>
               </svg>
             </div>
-            <h1 className="text-5xl text-gray-800 font-bold">Client Area</h1>
+            <h1 className="text-5xl text-gray-800 font-bold">
+              Raise your voice for a change
+            </h1>
             <p className="w-5/12 mx-auto md:mx-0 text-gray-500">
-              Create an impact
+              Make your move and raise your voice. This is a platform
+              designed to create impact and  influence leaders, Higher
+              government officials by raising issues.
             </p>
           </div>
           <AuthBody>

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import IssueCard from "../../components/IssueCard/IssueCard";
+import Navbar from "../../components/Navbar";
 import { getTags } from "../../utils/apis/tags";
 
 const Issues = () => {
@@ -10,7 +11,7 @@ const Issues = () => {
 
   return (
     <div className="">
-      <div>Navbar</div>
+      <Navbar />
       <div>Search & Create issue section</div>
       <section
         x-data="xData()"

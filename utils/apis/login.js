@@ -1,6 +1,6 @@
 import axios from "./axiosWithHeaders";
 import { setAuthToken } from "./localStore";
-import { API_PATHS } from "./url";
+import API_PATHS from "./url";
 
 export const registerUser = (data) => {
   return new Promise((resolve, reject) => {
